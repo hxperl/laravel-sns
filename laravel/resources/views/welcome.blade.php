@@ -7,7 +7,7 @@
 @section('content')
     <div class="row">
         {{-- Sign Up form--}}
-        <div class="col-6">
+        <div class="col-md-6">
             <h3>Sign Up</h3>
             <form action="#" method="post">
                 <div class="form-group">
@@ -27,7 +27,7 @@
             
         </div>
         {{-- Sign In form--}}
-        <div class="col-6">
+        <div class="col-md-6">
             <h3>Sign In</h3>
             <form action="#" method="post">
                 <div class="form-group">
