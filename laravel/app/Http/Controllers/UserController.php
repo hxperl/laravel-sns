@@ -3,7 +3,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class UserController extends Controllers
+class UserController extends Controller
 {
     public function postSignUp(Request $request)
     {
