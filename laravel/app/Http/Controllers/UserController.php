@@ -9,7 +9,7 @@ class UserController extends Controllers
     {
         $email = $request['email'];
         $first_name = $request['first_name'];
-        $password = bcrypt($request['password'];)
+        $password = bcrypt($request['password']);
 
         $user = new User();
         $user->email = $email;
