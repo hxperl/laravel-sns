@@ -7,7 +7,7 @@ Route::group(['middleware' => ['web']], function () {
     });
     
     Route::post('/signup', [
-        'uses' => 'UserController@postSignup',
+        'uses' => 'UserController@postSignUp',
         'as' => 'signup'
     ]);
 });
