@@ -2,11 +2,11 @@
 
 namespace App;
 
-use Illuminate\Contracts\Auth\Authenticatiable;
+use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 
-class User extends Model implements Authenticatiable
+class User extends Model implements Authenticatable
 {
-    use Illuminate\Auth\Authenticatiable;
+    use Illuminate\Auth\Authenticatable;
     
 }
