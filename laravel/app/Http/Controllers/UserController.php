@@ -30,7 +30,7 @@ class UserController extends Controller
 
     public function postSignIn(Request $request)
     {
-        if (Auth::attempt(['email'=> $request['email'], 'paassword'=> $request['password']])) {
+        if (Auth::attempt(['email'=> $request['email'], 'password'=> $request['password']])) {
             return redirect()->route('dashboard');
         }
         return rediect()->back();
