@@ -29,6 +29,9 @@ class UserController extends Controller
 
     public function postSignIn(Request $request)
     {
-
+        if (Auth::attempt(['email'=> $request['email'], 'paassword'= $request['password']])) {
+            return redirect()->route('dashboard');
+        }
+        return rediect()->back();
     }
 }

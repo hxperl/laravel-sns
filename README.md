@@ -7,10 +7,13 @@
 
 ### Design pattern : MVC
 
+- model - app
+- view - resource\views
 - controller - app\Http\Controllers
-- models - app
 
-UI - bootstrap
+##### ORM
+
+- eloquent	
 
 ##### post data 암호화
 
