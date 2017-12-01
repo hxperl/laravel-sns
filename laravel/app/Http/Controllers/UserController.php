@@ -44,6 +44,6 @@ class UserController extends Controller
         if (Auth::attempt(['email'=> $request['email'], 'password'=> $request['password']])) {
             return redirect()->route('dashboard');
         }
-        return rediect()->back();
+        return rediect()->route('dashboard');
     }
 }
