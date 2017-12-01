@@ -14,7 +14,9 @@
                 @endforeach
             </ul>
         </div>
+    </div>
     @endif
+    <div class="row">
         {{-- Sign Up form--}}
         <div class="col-md-6">
             <h3>Sign Up</h3>
