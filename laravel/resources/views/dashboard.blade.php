@@ -12,4 +12,33 @@
             </form>
         </div>
     </section>
+    <section class="row posts">
+        <div class="col-md-6 col-md-offset-3">
+            <header><h3>What other people say...</h3></header>
+            <article class="post">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                <div class="info">
+                    Posted by hxperl on 6 Dec 2017 
+                </div>
+                <div class="interaction">
+                    <a href="#">Like</a>
+                    <a href="#">Dislike</a>
+                    <a href="#">Edit</a>
+                    <a href="#">Delete</a>
+                </div>
+            </article>
+            <article class="post">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                <div class="info">
+                    Posted by hxperl on 6 Dec 2017 
+                </div>
+                <div class="interaction">
+                    <a href="#">Like</a>
+                    <a href="#">Dislike</a>
+                    <a href="#">Edit</a>
+                    <a href="#">Delete</a>
+                </div>
+            </article>
+        </div>
+    </section>
 @endsection
