@@ -1,4 +1,4 @@
-@extneds('layouts.master')
+@extends('layouts.master')
 
 @section('content')
     <section class="row new-post">
