@@ -27,3 +27,7 @@ file location : database/migrations/
 php artisan migrate
 ```
 
+##### Routing protection
+
+- 'auth' middleware
+- App\Exceptions\Handler.php -> unauthenticated function 추가
